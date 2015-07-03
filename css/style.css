@@ -1,0 +1,14 @@
+body {
+	font-family: 'Lora', serif;
+	color: #6d7b8d
+}
+.top-image {
+	padding-top: 20px;
+}
+#github-logo {
+	max-height: 152px;
+}
+img {
+	margin: 0 auto;
+}
+
