@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		<title>Dan Burgess - Portfolio</title>
@@ -36,69 +36,85 @@
 			</div>
 			<div class="row text-center">
 				<div class="col-md-4">
-					<img class="img-responsive" data-toggle="modal" data-target="#project1" src="http://placehold.it/340x152" alt="Blank Image">
+					<img class="img-responsive img-circle" data-toggle="modal" data-target="#project1" src="http://placehold.it/152x152" alt="Blank Image">
 					<h3 class="text-uppercase">Rememster</h3>
-					<p>http://rememster.com</p>
+					<a href="http://rememster.com">Rememster</a>
 				</div>
 				<div class="col-md-4">
-					<img id="github-logo" class="img-responsive" data-toggle="modal" data-target="#project2" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="Github Logo">
+					<img id="github-logo" class="img-responsive img-circle" data-toggle="modal" data-target="#project2" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="Github Logo">
 					<h3 class="text-uppercase">Github</h3>
-					<p>https://github.com/dpburgess</p>
+					<a href="https://github.com/dpburgess">My Github Repos</a>
 				</div>
 				<div class="col-md-4">
-					<img class="img-responsive" data-toggle="modal" data-target="#project3" src="http://www.snagajob.com/assets/images/ogLogo.png" alt="Snagajob Logo">
+					<img class="img-responsive img-circle" data-toggle="modal" data-target="#project3" src="http://www.snagajob.com/assets/images/ogLogo.png" alt="Snagajob Logo">
 					<h3 class="text-uppercase">Snagajob</h3>
-					<p>http://snagajob.com</p>
+					<a href="http://snagajob.com">Snagajob</a>
+				</div>
+			</div>
+			<div class="row hidden-xs">
+				<div class="col-md-12">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row hidden-xs">
+				<div class="col-md-12">
+					<p>I became interested in programming after graduating college and have spent time outside of my full-time job learning topics off and on.  I've jumped around a bunch between backend and front-end languages and topics, but am glad to be focusing on front-end now.
+					</p>
 				</div>
 			</div>
 		</div>
+		<footer class="text-center">
+			<div>
+				<p>© 2015 Dan Burgess All Rights Reserved</p>
+			</div>
+		</footer>
 		<!-- Modal -->
-		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h4 class="modal-title" id="myModalLabel">Rememster</h4>
-		      </div>
-		      <div class="modal-body">
-		        This is a site I've built myself using HTML, CSS, Bootstrap and PHP.  I still need to learn and incorporate Javascript into this site though.
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		      </div>
-		    </div>
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+		    	<div class="modal-content">
+		      		<div class="modal-header">
+		        		<h4 class="modal-title">Rememster</h4>
+		      		</div>
+		      		<div class="modal-body">
+		        		<p>This is a site I've built myself using HTML, CSS, Bootstrap and PHP.  I still need to learn and incorporate Javascript into this site though.</p>
+		      		</div>
+		      		<div class="modal-footer">
+		        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      		</div>
+		    	</div>
+		  	</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog">
+		  	<div class="modal-dialog" role="document">
+		    	<div class="modal-content">
+		      		<div class="modal-header">
+		        		<h4 class="modal-title">Github</h4>
+		      		</div>
+		      		<div class="modal-body">
+		        		<p>This is my profile on Github if you'd like to see my projects improve over time.</p>
+		      		</div>
+		      		<div class="modal-footer">
+		       			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      		</div>
+		   	 	</div>
 		  </div>
 		</div>
 		<!-- Modal -->
-		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h4 class="modal-title" id="myModalLabel">Github</h4>
-		      </div>
-		      <div class="modal-body">
-		        This is my profile on Github if you'd like to see my projects improve over time.
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-		<!-- Modal -->
-		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h4 class="modal-title" id="myModalLabel">Snagajob</h4>
-		      </div>
-		      <div class="modal-body">
-		        This is the company I work for and am glad to be working for.
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		      </div>
-		    </div>
-		  </div>
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog">
+		  	<div class="modal-dialog" role="document">
+		    	<div class="modal-content">
+		      		<div class="modal-header">
+		        		<h4 class="modal-title">Snagajob</h4>
+		      		</div>
+		      		<div class="modal-body">
+		        		<p>This is the company I work for and am glad to be working for.</p>
+		      		</div>
+		      		<div class="modal-footer">
+		        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      		</div>
+		    	</div>
+		  	</div>
 		</div>
 		<script src="http://code.jquery.com/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>

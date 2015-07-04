@@ -1,14 +1,31 @@
 body {
-	font-family: 'Lora', serif;
-	color: #6d7b8d
+	font-family: "Lora", serif;
+	color: #6d7b8d;
 }
+
 .top-image {
 	padding-top: 20px;
 }
+
 #github-logo {
 	max-height: 152px;
 }
+
 img {
 	margin: 0 auto;
 }
 
+[class="modal-content"] {
+	background-color: #d6f9ff;
+	cursor: pointer;
+}
+
+footer {
+	margin-top: 20px;
+	background-color: #000;
+	padding-bottom: 20px;
+}
+
+.img-circle {
+	cursor: pointer;
+}
